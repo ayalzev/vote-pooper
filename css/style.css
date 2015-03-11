@@ -138,21 +138,4 @@ textarea.form-control {
 		}
 }
 
-#img-banquet{
-	background: url(../images/banquet.jpg);
-	background-repeat: no-repeat;
-	background-size: 50%;
-	margin-left:15%;
-	padding:100px;
-	
-}
-
-#img-party{
-	background: url(../images/party.jpg);
-	background-repeat: no-repeat;
-	background-size: 10%;
-	margin-left:15%;
-	padding:100px;
-	
-}
 
