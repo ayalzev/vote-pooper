@@ -124,8 +124,9 @@ textarea.form-control {
 #footer {
 	background-color: #5BC0DE;
 	color: #FFF;
+	height:100px;
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
 }
 
 /* Lastly, apply responsive CSS fixes as necessary */
