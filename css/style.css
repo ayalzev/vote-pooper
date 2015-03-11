@@ -1,0 +1,158 @@
+body {
+	background-color: #EAFAFF;
+	font-family: 'Open Sans', Arial, sans-serif;
+	height: 100%;
+	/*margin-top: 40px;*/
+	/*NOTE: don't use margin/padding with sticky footer*/
+}
+
+html {
+	/*background-color: #FFEAEA;*/
+	height: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	color: #1993B6;
+	font-size: 92px;
+	font-size: 8vw;
+}
+
+p {
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: 300;
+	text-align: center;
+}
+@media screen and (min-width: 48em){ /* desktop, not mobile */
+    p{
+        text-align: justify;
+    }
+}
+
+.banner {
+	padding-top: 3%;
+	background-color: #5BC0DE;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.subbanner {
+	padding-top: 1%;
+	padding-bottom: 3%;
+	background-color: #5BC0DE;
+	color: #FFF;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.lead {
+	font-size: 30px;
+	line-height: 50px;
+	font-weight: 700
+}
+
+.center {
+	text-align: center;
+}
+
+a:link, a:visited, a:active {
+	color: #126C86;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1993B6;
+}
+
+::selection {
+  background: #B7EAF5; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #B7EAF5; /* Gecko Browsers */
+}
+
+.label-example {
+	background-color: #1993B6;
+}
+
+/* EFFECTS ============================================================ */
+.name {
+	font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+.madlib {
+	cursor: pointer;
+}
+
+.italic {
+	font-style: italic;
+}
+
+textarea.form-control {
+	background-color: #EAFAFF;
+	padding: 0;
+	border: none;
+	box-shadow: none;
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: 300;
+}
+
+/* FOOTER ============================================================ */
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	/*padding-top: 40px;*/
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -80px;
+}
+
+/* Set the fixed height of the footer here */
+#push, #footer {
+	height: 80px;
+}
+
+#footer {
+	background-color: #5BC0DE;
+	color: #FFF;
+	text-align: center;
+	padding: 20px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		}
+}
+
+#img-banquet{
+	background: url(../images/banquet.jpg);
+	background-repeat: no-repeat;
+	background-size: 50%;
+	margin-left:15%;
+	padding:100px;
+	
+}
+
+#img-party{
+	background: url(../images/party.jpg);
+	background-repeat: no-repeat;
+	background-size: 10%;
+	margin-left:15%;
+	padding:100px;
+	
+}
+
